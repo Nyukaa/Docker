@@ -1,0 +1,83 @@
+Script started on Thu Feb 26 16:45:52 2026
+[0m[49m[39m[27m[24m[K
+[1A7[0m[49m[39m]133;A[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mDoc[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mD[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[49m[34m[0m[34m[49m[39m [0m[49m[39m]133;B[?2004h[?25l8[0m[49m[39m[27m[24m[J]2;s2500281@BC-C02J63FRQ6LR:~/Documents/DockerFSO/part12-containers-applications]1;..-applications]7;file://BC-C02J63FRQ6LR/Users/s2500281/Documents/DockerFSO/part12-containers-applications\[0m[38;5;254m[49m[39m[27m[24m[1m[7m%[27m[1m[0m                                                                [0m[49m[39m[27m[24m[K[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mDoc[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mD[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m  [30m main [30m?1[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m [0m[49m[39m[K[?1h=[?25h[?2004h[7mdoc[7mk[7mer container ls[27m[K[A[46C[27md[27mo[27mck[27me[27mr[27m [27mc[27mo[27mn[27mt[27ma[27mi[27mn[27me[27mr[27m [27ml[27ms[?1l>[?25l[?2004l[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m docker container ls[K[?25h
+]2;docker container ls]1;dockerCONTAINER ID   IMAGE     COMMAND                  CREATED       STATUS       PORTS                                           NAMES
+6d1b91d4f1d6   nginx     "/docker-entrypoint.…"   2 hours ago   Up 2 hours   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp         mystifying_aryabhata
+f169d9f1fc17   mongo     "docker-entrypoint.s…"   3 hours ago   Up 3 hours   0.0.0.0:3456->27017/tcp, [::]:3456->27017/tcp   todo-backend-mongo-1
+[1m[7m%[27m[1m[0m                                                                 ]2;s2500281@BC-C02J63FRQ6LR:~/Documents/DockerFSO/part12-containers-applications]1;..-applications]7;file://BC-C02J63FRQ6LR/Users/s2500281/Documents/DockerFSO/part12-containers-applications\[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mDoc[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mD[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m  [30m main [30m?1[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m [0m[49m[39m[K[?1h=[?2004h[7mdoc[7mk[7mer exec -it todo-backend_mongo_1 bash[27m[K[A[24C[27md[27mo[27mck[27me[27mr[27m [27me[27mx[27me[27mc[27m [27m-[27mi[27mt[27m [27mt[27mo[27md[27mo[27m-[27mb[27ma[27mc[27mk[27me[27mn[27md[27m_[27mm[27mo[27mn[27mg[27mo[27m_[27m1[27m [27mb[27ma[27ms[27mh[?1l>[?25l[?2004l[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m docker exec -it todo-backend_mongo_1 bash[K[?25h
+]2;docker exec -it todo-backend_mongo_1 bash]1;dockerError response from daemon: No such container: todo-backend_mongo_1
+[1m[7m%[27m[1m[0m                                                                 ]2;s2500281@BC-C02J63FRQ6LR:~/Documents/DockerFSO/part12-containers-applications]1;..-applications]7;file://BC-C02J63FRQ6LR/Users/s2500281/Documents/DockerFSO/part12-containers-applications\[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mDoc[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mD[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m  [30m main [30m?1[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m [0m[49m[39m[K[?1h=[?2004h[7mdoc[7mk[7mer exec -it todo-backend_mongo_1 bash[27m[K[A[24C[27md[27mo[27mck[27me[27mr[27m [27me[27mx[27me[27mc[27m [27m-[27mi[27mt[27m [27mt[27mo[27md[27mo[27m-[27mb[27ma[27mc[27mk[27me[27mn[27md[27m_[27mm[27mo[27mn[27mg[27mo[27m_[27m1[27m [27mb[27ma[27ms[27mh1 bash -1 bash[P[12C [13D-mongo-1 bash[12D[?1l>[?25l[?2004l[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m docker exec -it todo-backend-mongo-1 bash[K[12D[?25h
+]2;docker exec -it todo-backend-mongo-1 bash]1;docker[?2004hroot@f169d9f1fc17:/# [7mmongosh -u root -p example[27mroot@f169d9f1fc17:/# mongosh -u root -p example
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	69a05cfeab52f4a0ce591666
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.7.0[0m
+Using MongoDB:		8.2.5
+[1m[33mUsing Mongosh[0m:		2.7.0
+
+For mongosh info see: https://www.mongodb.com/docs/mongodb-shell/
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the disableTelemetry() command.
+
+[1G[0J [1G[?2004h[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2026-02-26T11:23:18.832+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2026-02-26T11:23:19.003+00:00: For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile
+   2026-02-26T11:23:19.003+00:00: We suggest setting the contents of sysfsFile to 0.
+   2026-02-26T11:23:19.003+00:00: We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.
+[1m[33m------[0m
+
+[1G[0Jtest> [7Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m         36.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   56.00 KiB
+[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.todos.find({})
+[
+  {
+    _id: ObjectId([32m'69a02d25c56f35135e591667'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'69a02d25c56f35135e591668'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.todos.insertOne({
+|   text[33mtext[39m: [32m"[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m [32mb[39m[32me[39m[32ml[39m[32mt[39m[32m"[39m,
+|   d[36mdo[39mdone: fals[33mfalse[39m
+| })
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'69a05d73ab52f4a0ce591667'[39m)
+}
+[1G[0Jthe_database> [15Gdb.todos.find({})
+[
+  {
+    _id: ObjectId([32m'69a02d25c56f35135e591667'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'69a02d25c56f35135e591668'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'69a05d73ab52f4a0ce591667'[39m),
+    text: [32m'Increase the number of tools in my tool belt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004l]0;[?2004hroot@f169d9f1fc17:/# [7mexit[27mexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                 ]2;s2500281@BC-C02J63FRQ6LR:~/Documents/DockerFSO/part12-containers-applications]1;..-applications]7;file://BC-C02J63FRQ6LR/Users/s2500281/Documents/DockerFSO/part12-containers-applications\[0m[27m[24m[J[0m[49m[39m[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/[38;5;250mDoc[0m[38;5;250m[44m[44m[38;5;254m/[38;5;250mD[0m[38;5;250m[44m[44m[38;5;254m/[1m[38;5;254m[44m[38;5;255mpart12-containers-applications[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[42m[34m[0m[34m[42m[42m[30m  [30m main [30m?1[0m[30m[42m[42m[30m [0m[30m[42m[49m[32m[0m[32m[49m[39m [0m[49m[39m[K[?1h=[?2004h[7mexi[7mt[27m[K[A[61C[27me[27mx[27mit[?1l>[?25l[?2004l[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m exit[K[?25h
+]2;exit]1;exit
+Script done on Thu Feb 26 16:51:58 2026
