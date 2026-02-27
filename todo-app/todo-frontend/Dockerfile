@@ -1,3 +1,7 @@
+#test stage
+FROM node:20 AS test-stage
+WORKDIR /usr/src/app
+
 FROM node:20 AS build-stage
 
 WORKDIR /usr/src/app
